@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --a0yz2hz7o0previewdorarun-inter-regular-1588: Inter;
+  --m3-label-large: Roboto;
+  --additional: "Dancing Script";
+  --text: Overpass;
+  --services: "Luxurious Roman";
+  --text1: "Bree Serif";
+  --company: Besley;
+  --text2: "Libre Bodoni";
+  --text3: Kapakana;
+
+  /* font sizes */
+  --a0yz2hz7o0previewdorarun-inter-regular-1588-size: 15.9px;
+  --a0yz2hz7o0previewdorarun-inter-regular-1575-size: 15.8px;
+  --a0yz2hz7o0previewdorarun-inter-regular-1538-size: 15.4px;
+  --a0yz2hz7o0previewdorarun-inter-regular-1465-size: 14.6px;
+  --font-size-base-6: 15.6px;
+  --a0yz2hz7o0previewdorarun-inter-semi-bold-1488-size: 14.9px;
+  --single-line-body-base-size: 16px;
+  --a0yz2hz7o0previewdorarun-inter-semi-bold-1453-size: 14.5px;
+  --a0yz2hz7o0previewdorarun-inter-regular-1513-size: 15.1px;
+  --a0yz2hz7o0previewdorarun-inter-regular-1477-size: 14.8px;
+  --a0yz2hz7o0previewdorarun-inter-regular-1389-size: 13.9px;
+  --a0yz2hz7o0previewdorarun-inter-semi-bold-1673-size: 16.7px;
+  --a0yz2hz7o0previewdorarun-inter-regular-15-size: 15px;
+  --a0yz2hz7o0previewdorarun-inter-medium-19-size: 19px;
+  --a0yz2hz7o0previewdorarun-inter-regular-17-size: 17px;
+  --a0yz2hz7o0previewdorarun-inter-medium-1855-size: 18.6px;
+  --a0yz2hz7o0previewdorarun-inter-regular-1441-size: 14.4px;
+  --m3-label-large-size: 14px;
+  --additional-size: 54px;
+  --text-size: 22px;
+  --font-size-lg: 18px;
+  --services-size: 36px;
+  --font-size-10xl: 29px;
+  --text1-size: 28px;
+  --text2-size: 20px;
+  --text3-size: 42px;
+
+  /* Colors */
+  --schemes-on-primary: #fff;
+  --color-darkslateblue-100: #505fb0;
+  --schemes-primary: #65558f;
+  --a0yz2hz7o0previewdorarun-cello: #1c2756;
+  --state-layers-primary-opacity-08: rgba(101, 85, 143, 0.08);
+  --a0yz2hz7o0previewdorarun-spun-pearl: #a9abb7;
+  --a0yz2hz7o0previewdorarun-mountain-mist: #a6a3a7;
+  --a0yz2hz7o0previewdorarun-venus: #918f91;
+  --a0yz2hz7o0previewdorarun-monsoon: #898789;
+  --a0yz2hz7o0previewdorarun-jumbo: #807e82;
+  --a0yz2hz7o0previewdorarun-suva-gray1: #807d80;
+  --a0yz2hz7o0previewdorarun-suva-gray: #7f7c7f;
+  --a0yz2hz7o0previewdorarun-mobster: #7b797c;
+  --a0yz2hz7o0previewdorarun-fedora1: #7c787c;
+  --schemes-outline: #79747e;
+  --a0yz2hz7o0previewdorarun-jumbo1: #77747a;
+  --a0yz2hz7o0previewdorarun-mobster1: #777478;
+  --border-brand-default: #2c2c2c;
+  --a0yz2hz7o0previewdorarun-shark: #26262d;
+  --text-default-default: #1e1e1e;
+  --schemes-on-secondary-container: #1d192b;
+  --a0yz2hz7o0previewdorarun-mobster2: #777279;
+  --a0yz2hz7o0previewdorarun-mobster3: #747275;
+  --a0yz2hz7o0previewdorarun-fedora: #716e71;
+  --a0yz2hz7o0previewdorarun-fedora2: #6c6a6c;
+  --a0yz2hz7o0previewdorarun-mid-gray: #616069;
+  --a0yz2hz7o0previewdorarun-cornflower-blue: #446ff4;
+  --a0yz2hz7o0previewdorarun-perano: #a9bdef;
+  --color-black: #000;
+  --schemes-on-surface-variant: #49454f;
+  --schemes-secondary-container: #e8def8;
+  --background-neutral-secondary: #cdcdcd;
+  --background-brand-tertiary: #f5f5f5;
+
+  /* Spacing */
+  --space-200: 8px;
+  --radius-200: 8px;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-sm: 14px;
+  --gap-2xl: 21px;
+  --gap-3xs: 10px;
+  --gap-3xs-6: 9.6px;
+  --gap-22xl: 41px;
+  --gap-10xl: 29px;
+  --gap-58xl: 77px;
+  --gap-19xl: 38px;
+  --gap-mini: 15px;
+  --gap-11xl: 30px;
+  --gap-5xs: 8px;
+
+  /* Paddings */
+  --padding-101xl: 120px;
+  --padding-61xl: 80px;
+  --padding-59xl: 78px;
+  --padding-6xl: 25px;
+  --padding-31xl: 50px;
+  --padding-15xl: 34px;
+  --padding-9xs: 4px;
+  --padding-11xl: 30px;
+  --padding-12xs: 1px;
+  --padding-lgi: 19px;
+  --padding-8xl: 27px;
+  --padding-xs: 12px;
+  --padding-11xs: 2px;
+  --padding-17xl: 36px;
+  --padding-3xs: 10px;
+  --padding-18xl: 37px;
+  --padding-xl: 20px;
+  --padding-2xl-5: 21.5px;
+  --padding-4xs: 9px;
+  --padding-79xl-8: 98.8px;
+  --padding-23xl: 42px;
+  --padding-45xl: 64px;
+  --padding-5xs: 8px;
+  --padding-6xs: 7px;
+  --padding-21xl: 40px;
+  --padding-7xs: 6px;
+  --padding-4xl: 23px;
+  --padding-102xl: 121px;
+  --padding-223xl: 242px;
+  --padding-2xs: 11px;
+  --padding-32xl: 51px;
+  --padding-5xl: 24px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-81xl: 100px;
+}
