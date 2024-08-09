@@ -6,6 +6,8 @@ body {
 :root {
   /* fonts */
   --a0yz2hz7o0previewdorarun-inter-regular-1588: Inter;
+  --text3: "Bellota Text";
+  --font-crete-round: "Crete Round";
   --m3-label-large: Roboto;
   --additional: "Dancing Script";
   --text: Overpass;
@@ -13,7 +15,6 @@ body {
   --text1: "Bree Serif";
   --company: Besley;
   --text2: "Libre Bodoni";
-  --text3: Kapakana;
 
   /* font sizes */
   --a0yz2hz7o0previewdorarun-inter-regular-1588-size: 15.9px;
@@ -25,6 +26,10 @@ body {
   --single-line-body-base-size: 16px;
   --a0yz2hz7o0previewdorarun-inter-semi-bold-1453-size: 14.5px;
   --a0yz2hz7o0previewdorarun-inter-regular-1513-size: 15.1px;
+  --text3-size: 42px;
+  --font-size-45xl: 64px;
+  --font-size-32xl: 51px;
+  --font-size-19xl: 38px;
   --a0yz2hz7o0previewdorarun-inter-regular-1477-size: 14.8px;
   --a0yz2hz7o0previewdorarun-inter-regular-1389-size: 13.9px;
   --a0yz2hz7o0previewdorarun-inter-semi-bold-1673-size: 16.7px;
@@ -41,16 +46,20 @@ body {
   --font-size-10xl: 29px;
   --text1-size: 28px;
   --text2-size: 20px;
-  --text3-size: 42px;
 
   /* Colors */
-  --schemes-on-primary: #fff;
   --color-darkslateblue-100: #505fb0;
   --schemes-primary: #65558f;
   --a0yz2hz7o0previewdorarun-cello: #1c2756;
   --state-layers-primary-opacity-08: rgba(101, 85, 143, 0.08);
   --a0yz2hz7o0previewdorarun-spun-pearl: #a9abb7;
   --a0yz2hz7o0previewdorarun-mountain-mist: #a6a3a7;
+  --schemes-on-primary: #fff;
+  --color-gainsboro: #d9d9d9;
+  --background-brand-tertiary: #f5f5f5;
+  --text-neutral-on-neutral: #f3f3f3;
+  --color-black: #000;
+  --color-steelblue: #7c87c4;
   --a0yz2hz7o0previewdorarun-venus: #918f91;
   --a0yz2hz7o0previewdorarun-monsoon: #898789;
   --a0yz2hz7o0previewdorarun-jumbo: #807e82;
@@ -65,6 +74,8 @@ body {
   --a0yz2hz7o0previewdorarun-shark: #26262d;
   --text-default-default: #1e1e1e;
   --schemes-on-secondary-container: #1d192b;
+  --color-gray-100: #070202;
+  --background-neutral-secondary: #cdcdcd;
   --a0yz2hz7o0previewdorarun-mobster2: #777279;
   --a0yz2hz7o0previewdorarun-mobster3: #747275;
   --a0yz2hz7o0previewdorarun-fedora: #716e71;
@@ -72,11 +83,8 @@ body {
   --a0yz2hz7o0previewdorarun-mid-gray: #616069;
   --a0yz2hz7o0previewdorarun-cornflower-blue: #446ff4;
   --a0yz2hz7o0previewdorarun-perano: #a9bdef;
-  --color-black: #000;
   --schemes-on-surface-variant: #49454f;
   --schemes-secondary-container: #e8def8;
-  --background-neutral-secondary: #cdcdcd;
-  --background-brand-tertiary: #f5f5f5;
 
   /* Spacing */
   --space-200: 8px;
@@ -84,49 +92,62 @@ body {
 
   /* Gaps */
   --gap-xl: 20px;
+  --gap-12xs-3: 0.3px;
   --gap-sm: 14px;
+  --gap-mini-7: 14.7px;
+  --gap-mini: 15px;
   --gap-2xl: 21px;
+  --gap-11xl: 30px;
+  --gap-3xl: 22px;
+  --gap-28xl: 47px;
+  --gap-4xl: 23px;
+  --gap-31xl: 50px;
+  --gap-6xl: 25px;
+  --gap-12xl: 31px;
+  --gap-5xs: 8px;
   --gap-3xs: 10px;
   --gap-3xs-6: 9.6px;
   --gap-22xl: 41px;
   --gap-10xl: 29px;
   --gap-58xl: 77px;
   --gap-19xl: 38px;
-  --gap-mini: 15px;
-  --gap-11xl: 30px;
-  --gap-5xs: 8px;
 
   /* Paddings */
-  --padding-101xl: 120px;
+  --padding-81xl: 100px;
   --padding-61xl: 80px;
+  --padding-24xl: 43px;
+  --padding-31xl: 50px;
+  --padding-xl: 20px;
+  --padding-33xl: 52px;
+  --padding-9xs: 4px;
+  --padding-xs: 12px;
+  --padding-2xs: 11px;
+  --padding-smi: 13px;
+  --padding-10xs: 3px;
+  --padding-3xs: 10px;
+  --padding-11xs: 2px;
+  --padding-5xs: 8px;
+  --padding-6xs: 7px;
+  --padding-101xl: 120px;
   --padding-59xl: 78px;
   --padding-6xl: 25px;
-  --padding-31xl: 50px;
   --padding-15xl: 34px;
-  --padding-9xs: 4px;
   --padding-11xl: 30px;
   --padding-12xs: 1px;
   --padding-lgi: 19px;
   --padding-8xl: 27px;
-  --padding-xs: 12px;
-  --padding-11xs: 2px;
   --padding-17xl: 36px;
-  --padding-3xs: 10px;
   --padding-18xl: 37px;
-  --padding-xl: 20px;
   --padding-2xl-5: 21.5px;
   --padding-4xs: 9px;
   --padding-79xl-8: 98.8px;
   --padding-23xl: 42px;
   --padding-45xl: 64px;
-  --padding-5xs: 8px;
-  --padding-6xs: 7px;
   --padding-21xl: 40px;
   --padding-7xs: 6px;
   --padding-4xl: 23px;
   --padding-102xl: 121px;
   --padding-223xl: 242px;
-  --padding-2xs: 11px;
   --padding-32xl: 51px;
   --padding-5xl: 24px;
 
